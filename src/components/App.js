@@ -8,7 +8,7 @@ class App extends React.Component {
   state = { videos: [], selectedVideo: null };
 
   componentDidMount = () => {
-    this.onTermSearch("cars");
+    this.onTermSearch("buildings");
   };
 
   onTermSearch = async (term) => {
